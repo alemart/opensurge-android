@@ -21,7 +21,7 @@ if [[ ! -d "$src_dir" ]]; then
     # remote copy
     "$git_pull" \
         --repository https://github.com/alemart/surgescript.git \
-        --tag v0.6.0 \
+        --commit 19cd303675ae3449831ff94b7ad868ebf93970a8 \
     ;
 
 else
