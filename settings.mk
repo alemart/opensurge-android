@@ -9,8 +9,8 @@
 #
 GAME_VERSION_MAJOR := 6
 GAME_VERSION_MINOR := 1
-GAME_VERSION_PATCH := 2
-GAME_VERSION_BUILD := 1
+GAME_VERSION_PATCH := 3
+GAME_VERSION_BUILD := 0
 
 # suffix
 GAME_VERSION_SUFFIX ?= unofficial
@@ -61,7 +61,7 @@ NDK := $(ANDROID_NDK_ROOT)
 #
 
 # must be greater than or equal to the targetSdkVersion declared in the manifest
-COMPILE_SDK_VERSION ?= 33
+COMPILE_SDK_VERSION ?= 36
 
 # a directory name in $ANDROID_HOME/build-tools
 BUILD_TOOLS_VERSION ?=
